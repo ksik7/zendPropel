@@ -37,4 +37,28 @@ class TestController extends Zend_Controller_Action
         $books = BookQuery::create()->find();
         $this->view->assign('books', $books);
     }
+
+    public function signAction()
+    {
+        $form = new Application_Form_Book();
+
+        $request = $this->getRequest();
+
+        if($this->getRequest()->isPost()){
+            if($form->isValid($request->getPost())){
+                $book = new Book();
+
+                $value = $form->getValues();
+
+
+                $book->setName($value['email']);
+
+                $book->save();
+
+                return $this->redirect('/test');
+            }
+        }
+
+        $this->view->form = $form;
+    }
 }

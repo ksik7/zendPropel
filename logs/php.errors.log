@@ -68,3 +68,23 @@
 [02-Mar-2016 14:46:20 Europe/Warsaw] PHP  11. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
 [02-Mar-2016 14:46:20 Europe/Warsaw] PHP  12. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
 [02-Mar-2016 14:46:20 Europe/Warsaw] PHP  13. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP Fatal error:  Call to a member function getId() on string in /srv/vhosts/testzf/application/models/testzf/om/BaseBook.php on line 892
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP Stack trace:
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   7. TestController->signAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[03-Mar-2016 10:48:25 Europe/Warsaw] PHP   8. BaseBook->setAutor($v = *uninitialized*) /srv/vhosts/testzf/application/modules/default/controllers/TestController.php:51
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP Fatal error:  Call to a member function getId() on string in /srv/vhosts/testzf/application/models/testzf/om/BaseBook.php on line 892
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP Stack trace:
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   7. TestController->signAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[03-Mar-2016 10:52:24 Europe/Warsaw] PHP   8. BaseBook->setAutor($v = *uninitialized*) /srv/vhosts/testzf/application/modules/default/controllers/TestController.php:55
