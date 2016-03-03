@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<projectProfile type="default" version="$version">
+  <projectDirectory>
+    <projectProfileFile filesystemName=".zfproject.xml"/>
+    <applicationDirectory classNamePrefix="Application_">
+      <apisDirectory enabled="false"/>
+      <configsDirectory>
+        <customDirectory>
+          <file filesystemName="confirmation.ini"/>
+          <file filesystemName="debug.ini"/>
+          <file filesystemName="error.ini"/>
+          <file filesystemName="notice.ini"/>
+          <file filesystemName="validation.ini"/>
+        </customDirectory>
+        <file filesystemName="README.txt"/>
+        <file filesystemName="application.ini"/>
+        <file filesystemName="constants.php"/>
+      </configsDirectory>
+      <formsDirectory enabled="false"/>
+      <layoutsDirectory>
+        <layoutScriptsDirectory>
+          <layoutScriptFile layoutName="layout"/>
+        </layoutScriptsDirectory>
+      </layoutsDirectory>
+      <modelsDirectory enabled="false"/>
+      <modulesDirectory>
+        <moduleDirectory moduleName="default">
+          <controllersDirectory>
+            <controllerFile controllerName="Index">
+              <actionMethod actionName="index"/>
+            </controllerFile>
+            <controllerFile controllerName="Error"/>
+          </controllersDirectory>
+          <viewsDirectory>
+            <viewScriptsDirectory>
+              <viewControllerScriptsDirectory forControllerName="Index">
+                <viewScriptFile forActionName="index"/>
+              </viewControllerScriptsDirectory>
+              <viewControllerScriptsDirectory forControllerName="Error">
+                <viewScriptFile forActionName="error"/>
+              </viewControllerScriptsDirectory>
+            </viewScriptsDirectory>
+            <viewHelpersDirectory/>
+            <viewFiltersDirectory enabled="false"/>
+          </viewsDirectory>
+        </moduleDirectory>
+      </modulesDirectory>
+      <file filesystemName="Bootstrap.php"/>
+    </applicationDirectory>
+    <dataDirectory enabled="false">
+      <cacheDirectory enabled="false"/>
+      <searchIndexesDirectory enabled="false"/>
+      <localesDirectory enabled="false"/>
+      <logsDirectory enabled="false"/>
+      <sessionsDirectory enabled="false"/>
+      <uploadsDirectory enabled="false"/>
+    </dataDirectory>
+    <docsDirectory>
+      <file filesystemName="README.txt"/>
+    </docsDirectory>
+    <customDirectory/>
+    <publicDirectory>
+      <publicStylesheetsDirectory enabled="false"/>
+      <customDirectory/>
+      <publicScriptsDirectory/>
+      <publicImagesDirectory/>
+      <file filesystemName="index.php"/>
+      <htaccessFile filesystemName=".htaccess"/>
+    </publicDirectory>
+    <projectProvidersDirectory enabled="false"/>
+    <temporaryDirectory/>
+  </projectDirectory>
+</projectProfile>

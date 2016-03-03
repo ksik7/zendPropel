@@ -1,0 +1,3 @@
+export ZF_STORAGE_DIR=./vendor/.zf
+export ZF_CONFIG_FILE=./vendor/.zf.ini
+php -d safe_mode=Off -f "./vendor/zendframework/zendframework1/bin/zf.php" -- "$@"

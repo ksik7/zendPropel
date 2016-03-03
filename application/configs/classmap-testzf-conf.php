@@ -1,0 +1,16 @@
+<? return array (
+  'Autor' => 'models/testzf/Autor.php',
+  'AutorPeer' => 'models/testzf/AutorPeer.php',
+  'AutorQuery' => 'models/testzf/AutorQuery.php',
+  'AutorTableMap' => 'models/testzf/map/AutorTableMap.php',
+  'BaseAutor' => 'models/testzf/om/BaseAutor.php',
+  'BaseAutorPeer' => 'models/testzf/om/BaseAutorPeer.php',
+  'BaseAutorQuery' => 'models/testzf/om/BaseAutorQuery.php',
+  'BaseBook' => 'models/testzf/om/BaseBook.php',
+  'BaseBookPeer' => 'models/testzf/om/BaseBookPeer.php',
+  'BaseBookQuery' => 'models/testzf/om/BaseBookQuery.php',
+  'Book' => 'models/testzf/Book.php',
+  'BookPeer' => 'models/testzf/BookPeer.php',
+  'BookQuery' => 'models/testzf/BookQuery.php',
+  'BookTableMap' => 'models/testzf/map/BookTableMap.php',
+);

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!--
+        <log>
+            <ident>schema</ident>
+            <name>propel.log</name>
+            <level>2</level>
+            <type>file</type>
+        </log>
+    -->
+  <propel>
+    <datasources default="testzf">
+      <datasource id="testzf">
+        <adapter>mysql</adapter>
+        <connection>
+          <!--<classname>PDO</classname>-->
+          <dsn>mysql:host=localhost;dbname=test</dsn>
+          <user>root</user>
+          <password>test</password>
+          <settings>
+            <setting id="charset">utf8</setting>
+          </settings>
+        </connection>
+      </datasource>
+    </datasources>
+  </propel>
+</config>

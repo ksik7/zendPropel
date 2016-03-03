@@ -1,0 +1,44 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "dafik/dfi": "@dev",
+        "dafik/zf-scaffold": "@dev",
+        "zendframework/zendframework1": "~1.12.7",
+        "propel/propel1": "1.7.1",
+        "twitter/bootstrap": "v3.2.0",
+        "frameworks/jquery": "1.9.1"
+    },
+    "scripts": {
+        "post-update-cmd": [
+        ],
+        "post-install-cmd": [
+            "touch zf",
+            "chmod +x zf",
+            "echo '#!/bin/bash >> zf'",
+            "echo 'export ZF_STORAGE_DIR=./vendor/.zf' >> zf",
+            "echo 'export ZF_CONFIG_FILE=./vendor/.zf.ini' >> zf",
+            "echo 'php -d safe_mode=Off -f \"./vendor/zendframework/zendframework1/bin/zf.php\" -- \"$@\"' >> zf",
+            "./zf --setup storage-directory",
+            "./zf --setup config-file",
+            "echo '\":./vendor\"'  >> ./vendor/.zf.ini",
+            "echo '\nbasicloader.classes.20 = VendorAutoloader' >> ./vendor/.zf.ini",
+            "echo 'basicloader.classes.21 = ZFscaffold_ZfTool_ScaffoldProvider' >> ./vendor/.zf.ini",
+            "echo 'basicloader.classes.22 = ZFscaffold_ZfTool_PropelOrmProvider' >> ./vendor/.zf.ini",
+            "echo 'basicloader.classes.23 = ZFscaffold_ZfTool_ZFProjectProvider' >> ./vendor/.zf.ini",
+            "touch ./vendor/VendorAutoloader.php",
+            "echo '<?php' >> ./vendor/VendorAutoloader.php",
+            "echo 'require_once __DIR__ . \"/autoload.php\";' >> ./vendor/VendorAutoloader.php",
+            "echo 'class VendorAutoloader{}' >> ./vendor/VendorAutoloader.php"
+        ]
+    }
+
+}

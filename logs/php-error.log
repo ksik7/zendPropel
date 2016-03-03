@@ -1,0 +1,848 @@
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _AD_LOG_FILE - assumed '_AD_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 43
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 44
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 45
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 46
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 48
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  file_put_contents(_APP_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  file_put_contents(_AD_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  file_put_contents(_ERROR_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  file_put_contents(_DEBUG_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  file_put_contents(_SHUTDOWN_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  file_put_contents(_PROPEL_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 56
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Fatal error:  Class 'Dfi_File' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 84
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:04 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _AD_LOG_FILE - assumed '_AD_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 43
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 44
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 45
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 46
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 48
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  file_put_contents(_APP_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  file_put_contents(_AD_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  file_put_contents(_ERROR_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  file_put_contents(_DEBUG_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  file_put_contents(_SHUTDOWN_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  file_put_contents(_PROPEL_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 56
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Fatal error:  Class 'Dfi_File' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 84
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:06 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _AD_LOG_FILE - assumed '_AD_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 43
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 44
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 45
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 46
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 48
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  file_put_contents(_APP_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  file_put_contents(_AD_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  file_put_contents(_ERROR_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  file_put_contents(_DEBUG_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  file_put_contents(_SHUTDOWN_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  file_put_contents(_PROPEL_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 56
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Fatal error:  Class 'Dfi_File' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 84
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:21:07 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _AD_LOG_FILE - assumed '_AD_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 43
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 44
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 45
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 46
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 48
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  file_put_contents(_APP_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  file_put_contents(_AD_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  file_put_contents(_ERROR_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  file_put_contents(_DEBUG_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  file_put_contents(_SHUTDOWN_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  file_put_contents(_PROPEL_LOG_FILE): failed to open stream: Brak dostępu in /srv/vhosts/testzf/application/Bootstrap.php on line 51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. file_put_contents() /srv/vhosts/testzf/application/Bootstrap.php:51
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Warning:  chmod(): Nie ma takiego pliku ani katalogu in /srv/vhosts/testzf/application/Bootstrap.php on line 52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   7. chmod() /srv/vhosts/testzf/application/Bootstrap.php:52
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 56
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _APP_LOG_FILE - assumed '_APP_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _ERROR_LOG_FILE - assumed '_ERROR_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _DEBUG_LOG_FILE - assumed '_DEBUG_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _SHUTDOWN_LOG_FILE - assumed '_SHUTDOWN_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Notice:  Use of undefined constant _PROPEL_LOG_FILE - assumed '_PROPEL_LOG_FILE' in /srv/vhosts/testzf/application/Bootstrap.php on line 82
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Fatal error:  Class 'Dfi_File' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 84
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP Stack trace:
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[02-Mar-2016 13:25:54 Europe/Warsaw] PHP   6. Bootstrap->_initLoggers() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
