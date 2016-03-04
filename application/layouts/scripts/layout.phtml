@@ -1,1 +1,11 @@
-<?php echo $this->layout()->content; ?>
+<html>
+<head>
+    <title>My Site</title>
+</head>
+<body>
+<div class="content">
+    <?php echo $this->layout()->content ?>
+</div>
+<?php echo $this->placeholder('sidebar') ?>
+</body>
+</html>
