@@ -39,7 +39,7 @@
       <parameter name="Max_data_length" value="0"/>
       <parameter name="Index_length" value="0"/>
       <parameter name="Data_free" value="0"/>
-      <parameter name="Auto_increment" value="1"/>
+      <parameter name="Auto_increment" value="2"/>
       <parameter name="Create_time" value="2016-03-02 12:58:55"/>
       <parameter name="Update_time" value=""/>
       <parameter name="Check_time" value=""/>
@@ -102,7 +102,7 @@
         <parameter name="Seq_in_index" value="1"/>
         <parameter name="Column_name" value="autor_id"/>
         <parameter name="Collation" value="A"/>
-        <parameter name="Cardinality" value="0"/>
+        <parameter name="Cardinality" value="7"/>
         <parameter name="Sub_part" value=""/>
         <parameter name="Packed" value=""/>
         <parameter name="Null" value="YES"/>
@@ -116,14 +116,120 @@
       <parameter name="Engine" value="InnoDB"/>
       <parameter name="Version" value="10"/>
       <parameter name="Row_format" value="Compact"/>
+      <parameter name="Rows" value="7"/>
+      <parameter name="Avg_row_length" value="2340"/>
+      <parameter name="Data_length" value="16384"/>
+      <parameter name="Max_data_length" value="0"/>
+      <parameter name="Index_length" value="16384"/>
+      <parameter name="Data_free" value="0"/>
+      <parameter name="Auto_increment" value="10"/>
+      <parameter name="Create_time" value="2016-03-02 12:59:37"/>
+      <parameter name="Update_time" value=""/>
+      <parameter name="Check_time" value=""/>
+      <parameter name="Collation" value="latin1_swedish_ci"/>
+      <parameter name="Checksum" value=""/>
+      <parameter name="Create_options" value=""/>
+      <parameter name="Comment" value=""/>
+    </vendor>
+    <behavior name="hashable"/>
+  </table>
+  <table name="users" phpName="User" idMethod="native" description="">
+    <column name="id" phpName="Id" type="INTEGER" description="" primaryKey="true" required="true">
+      <vendor type="mysql">
+        <parameter name="Field" value="id"/>
+        <parameter name="Type" value="int(11)"/>
+        <parameter name="Collation" value=""/>
+        <parameter name="Null" value="NO"/>
+        <parameter name="Key" value="PRI"/>
+        <parameter name="Default" value=""/>
+        <parameter name="Extra" value=""/>
+        <parameter name="Privileges" value="select,insert,update,references"/>
+        <parameter name="Comment" value=""/>
+      </vendor>
+    </column>
+    <column name="username" phpName="Username" type="VARCHAR" size="50" description="" required="true">
+      <vendor type="mysql">
+        <parameter name="Field" value="username"/>
+        <parameter name="Type" value="varchar(50)"/>
+        <parameter name="Collation" value="latin1_swedish_ci"/>
+        <parameter name="Null" value="NO"/>
+        <parameter name="Key" value="UNI"/>
+        <parameter name="Default" value=""/>
+        <parameter name="Extra" value=""/>
+        <parameter name="Privileges" value="select,insert,update,references"/>
+        <parameter name="Comment" value=""/>
+      </vendor>
+    </column>
+    <column name="password" phpName="Password" type="VARCHAR" size="32" description="" required="false">
+      <vendor type="mysql">
+        <parameter name="Field" value="password"/>
+        <parameter name="Type" value="varchar(32)"/>
+        <parameter name="Collation" value="latin1_swedish_ci"/>
+        <parameter name="Null" value="YES"/>
+        <parameter name="Key" value=""/>
+        <parameter name="Default" value=""/>
+        <parameter name="Extra" value=""/>
+        <parameter name="Privileges" value="select,insert,update,references"/>
+        <parameter name="Comment" value=""/>
+      </vendor>
+    </column>
+    <column name="password_salt" phpName="PasswordSalt" type="VARCHAR" size="32" description="" required="false">
+      <vendor type="mysql">
+        <parameter name="Field" value="password_salt"/>
+        <parameter name="Type" value="varchar(32)"/>
+        <parameter name="Collation" value="latin1_swedish_ci"/>
+        <parameter name="Null" value="YES"/>
+        <parameter name="Key" value=""/>
+        <parameter name="Default" value=""/>
+        <parameter name="Extra" value=""/>
+        <parameter name="Privileges" value="select,insert,update,references"/>
+        <parameter name="Comment" value=""/>
+      </vendor>
+    </column>
+    <column name="real_name" phpName="RealName" type="VARCHAR" size="150" description="" required="false">
+      <vendor type="mysql">
+        <parameter name="Field" value="real_name"/>
+        <parameter name="Type" value="varchar(150)"/>
+        <parameter name="Collation" value="latin1_swedish_ci"/>
+        <parameter name="Null" value="YES"/>
+        <parameter name="Key" value=""/>
+        <parameter name="Default" value=""/>
+        <parameter name="Extra" value=""/>
+        <parameter name="Privileges" value="select,insert,update,references"/>
+        <parameter name="Comment" value=""/>
+      </vendor>
+    </column>
+    <unique name="username">
+      <unique-column name="username"/>
+      <vendor type="mysql">
+        <parameter name="Table" value="users"/>
+        <parameter name="Non_unique" value="0"/>
+        <parameter name="Key_name" value="username"/>
+        <parameter name="Seq_in_index" value="1"/>
+        <parameter name="Column_name" value="username"/>
+        <parameter name="Collation" value="A"/>
+        <parameter name="Cardinality" value="0"/>
+        <parameter name="Sub_part" value=""/>
+        <parameter name="Packed" value=""/>
+        <parameter name="Null" value=""/>
+        <parameter name="Index_type" value="BTREE"/>
+        <parameter name="Comment" value=""/>
+        <parameter name="Index_comment" value=""/>
+      </vendor>
+    </unique>
+    <vendor type="mysql">
+      <parameter name="Name" value="users"/>
+      <parameter name="Engine" value="InnoDB"/>
+      <parameter name="Version" value="10"/>
+      <parameter name="Row_format" value="Compact"/>
       <parameter name="Rows" value="0"/>
       <parameter name="Avg_row_length" value="0"/>
       <parameter name="Data_length" value="16384"/>
       <parameter name="Max_data_length" value="0"/>
       <parameter name="Index_length" value="16384"/>
       <parameter name="Data_free" value="0"/>
-      <parameter name="Auto_increment" value="1"/>
-      <parameter name="Create_time" value="2016-03-02 12:59:37"/>
+      <parameter name="Auto_increment" value=""/>
+      <parameter name="Create_time" value="2016-03-07 10:17:07"/>
       <parameter name="Update_time" value=""/>
       <parameter name="Check_time" value=""/>
       <parameter name="Collation" value="latin1_swedish_ci"/>

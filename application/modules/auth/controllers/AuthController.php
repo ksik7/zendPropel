@@ -5,6 +5,8 @@ class AuthController extends Zend_Controller_Action
 
     public function loginAction()
     {
+        $db = $this->_getParam('db');
+
         $loginForm = new Default_Form_Auth_Login();
 
         if ($loginForm->isValid($_POST)) {
@@ -25,7 +27,7 @@ class AuthController extends Zend_Controller_Action
 
             if ($result->isValid()) {
                 $this->_helper->FlashMessenger('Successful Login');
-                $this->_redirect('/');
+                $this->redirect('/');
                 return;
             }
 
