@@ -1,40 +1,39 @@
 <?php
-
-class AuthController extends Zend_Controller_Action
+class Auth_AuthController extends Zend_Controller_Action
 {
-
+    public function init()
+    {
+    }
+    public function indexAction()
+    {
+    }
     public function loginAction()
     {
-        $db = $this->_getParam('db');
-
-        $loginForm = new Default_Form_Auth_Login();
-
-        if ($loginForm->isValid($_POST)) {
-
-            $adapter = new Zend_Auth_Adapter_DbTable(
-                $db,
-                'users',
-                'username',
-                'password',
-                'MD5(CONCAT(?, password_salt))'
-            );
-
-            $adapter->setIdentity($loginForm->getValue('username'));
-            $adapter->setCredential($loginForm->getValue('password'));
-
-            $auth   = Zend_Auth::getInstance();
-            $result = $auth->authenticate($adapter);
-
-            if ($result->isValid()) {
-                $this->_helper->FlashMessenger('Successful Login');
-                $this->redirect('/');
-                return;
-            }
-
+        if (Zend_Auth::getInstance()->hasIdentity()) {
+            $this->redirect('/');
         }
-
-        $this->view->loginForm = $loginForm;
-
+        $request = $this->getRequest();
+        $form = new Application_Form_Login();
+        if ($request->isPost()) {
+            if ($form->isValid($this->_request->getPost())) {
+                $adapter = new Ks_Auth_Adapter_Db($form->getValue('username'), $form->getValue('password'), 'User');
+                $auth = Zend_Auth::getInstance();
+                $result = $adapter->authenticate();
+                if ($result->isValid()) {
+                    echo 'valid';
+                    $authStorage = $auth->getStorage();
+                    $authStorage->write($adapter->user->getId());
+                    $this->redirect('/');
+                } else {
+                    $this->view->errorMessage = "Username or password is not correct.";
+                }
+            }
+        }
+        $this->view->form = $form;
     }
-
+    public function logoutAction()
+    {
+        Zend_Auth::getInstance()->clearIdentity();
+        $this->redirect('/');
+    }
 }

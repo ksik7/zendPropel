@@ -12,6 +12,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         $autoloader->registerNamespace('Dfi_');
         $autoloader->registerNamespace('application_');
         $autoloader->registerNamespace('EasyBib_');
+        $autoloader->registerNamespace('Ks_');
         // $autoloader->registerNamespace('nusoap_');
     }
 

@@ -88,3 +88,478 @@
 [03-Mar-2016 10:52:24 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
 [03-Mar-2016 10:52:24 Europe/Warsaw] PHP   7. TestController->signAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
 [03-Mar-2016 10:52:24 Europe/Warsaw] PHP   8. BaseBook->setAutor($v = *uninitialized*) /srv/vhosts/testzf/application/modules/default/controllers/TestController.php:55
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP Fatal error:  Class 'Default_Form_Auth_Login' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 10
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP Stack trace:
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[07-Mar-2016 10:42:42 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseBook.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf/:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP Stack trace:
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   7. TestController->addAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   8. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:27
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP   9. Zend_Loader_StandardAutoloader->autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:27
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP  11. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP  12. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[07-Mar-2016 10:42:58 Europe/Warsaw] PHP  13. PropelAutoloader->autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP Fatal error:  Class 'Default_Form_Auth_Login' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 10
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP Stack trace:
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[07-Mar-2016 10:48:12 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP Fatal error:  Call to a member function setAction() on null in /srv/vhosts/testzf/application/modules/auth/views/scripts/auth/login.phtml on line 2
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP Stack trace:
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:527
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/HelperBroker.php:277
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render($action = *uninitialized*, $name = *uninitialized*, $noController = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:972
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript($script = *uninitialized*, $name = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:933
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP  11. Zend_View_Abstract->render($name = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:912
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP  12. Zend_View->_run(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/View/Abstract.php:888
+[07-Mar-2016 10:51:48 Europe/Warsaw] PHP  13. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/View.php:157
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP Fatal error:  Call to a member function setAction() on null in /srv/vhosts/testzf/application/modules/auth/views/scripts/auth/login.phtml on line 2
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP Stack trace:
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:527
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/HelperBroker.php:277
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render($action = *uninitialized*, $name = *uninitialized*, $noController = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:972
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript($script = *uninitialized*, $name = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:933
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP  11. Zend_View_Abstract->render($name = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:912
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP  12. Zend_View->_run(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/View/Abstract.php:888
+[07-Mar-2016 10:52:24 Europe/Warsaw] PHP  13. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/View.php:157
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP Fatal error:  Class 'UQuery' not found in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:17:32 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP Fatal error:  Class 'UQuery' not found in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:22:06 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP Fatal error:  Class 'UQuery' not found in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:29:45 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP Fatal error:  Class 'UQuery' not found in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:30:05 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP Fatal error:  Class 'UQuery' not found in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:30:10 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP Fatal error:  Class 'UQuery' not found in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:32:17 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf/:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:33:46 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf/:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:34:48 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf/:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:36:54 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf/:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:40:41 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP   9. spl_autoload_call() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP  13. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:41:30 Europe/Warsaw] PHP  14. PropelAutoloader->autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:45:30 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:59
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:59
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:45:43 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required '/srv/vhosts/testzf/application/models/teztzf/UserQuery' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 14:57:54 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required '/srv/vhosts/testzf/application/models/teztzf/UserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Auth/Adapter/Db.php on line 57
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP Stack trace:
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[08-Mar-2016 15:02:38 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:23:26 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../vendor/zendframework/zendframework1/library/Zend:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   8. Dfi_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:57
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:23:36 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../library:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   8. Ks_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:22
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:22
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:46:33 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP Fatal error:  require(): Failed opening required 'models/om/BaseUserQuery.php' (include_path='/srv/vhosts/testzf/application/../library/:/srv/vhosts/testzf/application/models/testzf/:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/propel/propel1/runtime/lib/util/PropelAutoloader.php on line 110
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   8. Ks_Auth_Adapter_Db->authenticate() /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:11
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP   9. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:22
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP  10. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php:22
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP  11. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:246
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP  12. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:320
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP  13. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:48:06 Europe/Warsaw] PHP  14. PropelAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:17
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 15:59:54 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:01:04 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:01:07 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:01:08 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:01:14 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:02:39 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:05:25 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP Fatal error:  Class 'Ks_Auth_Adapter_Db' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 9
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:05:42 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP Fatal error:  Call to a member function setAction() on null in /srv/vhosts/testzf/application/modules/auth/views/scripts/auth/login.phtml on line 2
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP Stack trace:
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:527
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/HelperBroker.php:277
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render($action = *uninitialized*, $name = *uninitialized*, $noController = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:972
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript($script = *uninitialized*, $name = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:933
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP  11. Zend_View_Abstract->render($name = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action/Helper/ViewRenderer.php:912
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP  12. Zend_View->_run(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/View/Abstract.php:888
+[09-Mar-2016 16:14:35 Europe/Warsaw] PHP  13. include() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/View.php:157
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP Fatal error:  Class 'Application_Form_Login' not found in /srv/vhosts/testzf/application/modules/auth/controllers/AuthController.php on line 16
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP Stack trace:
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[10-Mar-2016 13:49:28 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /srv/vhosts/testzf/application/forms/Login.php on line 20
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP Stack trace:
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   8. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP   9. Zend_Loader_Autoloader::autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:18:42 Europe/Warsaw] PHP  10. Zend_Loader_Autoloader_Resource->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:120
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /srv/vhosts/testzf/application/forms/Login.php on line 19
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP Stack trace:
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   8. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP   9. Zend_Loader_Autoloader::autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:41:43 Europe/Warsaw] PHP  10. Zend_Loader_Autoloader_Resource->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:120
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /srv/vhosts/testzf/application/forms/Login.php on line 19
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP Stack trace:
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch($request = *uninitialized*, $response = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch($action = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   8. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP   9. Zend_Loader_Autoloader::autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:41:49 Europe/Warsaw] PHP  10. Zend_Loader_Autoloader_Resource->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:120
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /srv/vhosts/testzf/application/forms/Login.php on line 17
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP Stack trace:
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   8. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP   9. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:58:38 Europe/Warsaw] PHP  10. Zend_Loader_Autoloader_Resource->autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:120
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /srv/vhosts/testzf/application/forms/Login.php on line 17
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP Stack trace:
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   2. Zend_Application->run() /srv/vhosts/testzf/public/index.php:43
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:384
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   4. Zend_Controller_Front->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/Bootstrap.php:105
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php:954
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   6. Zend_Controller_Action->dispatch() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Dispatcher/Standard.php:308
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   7. Auth_AuthController->loginAction() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:516
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   8. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP   9. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Controller/Action.php:16
+[10-Mar-2016 15:58:43 Europe/Warsaw] PHP  10. Zend_Loader_Autoloader_Resource->autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:120

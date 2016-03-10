@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    $baseDir . '/library',
     $vendorDir . '/zendframework/zendframework1/library',
     $vendorDir . '/propel/propel1/runtime/lib',
     $vendorDir . '/propel/propel1/generator/lib',
