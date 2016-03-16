@@ -60,6 +60,12 @@ abstract class BaseUser extends BaseObject implements Persistent
     protected $real_name;
 
     /**
+     * The value for the role field.
+     * @var        string
+     */
+    protected $role;
+
+    /**
      * Flag to prevent endless save loop, if this object is referenced
      * by another object which falls in this transaction.
      * @var        boolean
@@ -132,6 +138,17 @@ abstract class BaseUser extends BaseObject implements Persistent
     {
 
         return $this->real_name;
+    }
+
+    /**
+     * Get the [role] column value.
+     *
+     * @return string
+     */
+    public function getRole()
+    {
+
+        return $this->role;
     }
 
     /**
@@ -240,6 +257,27 @@ abstract class BaseUser extends BaseObject implements Persistent
     } // setRealName()
 
     /**
+     * Set the value of [role] column.
+     *
+     * @param string|null $v new value
+     * @return User The current object (for fluent API support)
+     */
+    public function setRole($v)
+    {
+        if ($v !== null) {
+            $v = (string) $v;
+        }
+
+        if ($this->role !== $v) {
+            $this->role = $v;
+            $this->modifiedColumns[] = UserPeer::ROLE;
+        }
+
+
+        return $this;
+    } // setRole()
+
+    /**
      * Indicates whether the columns in this object are only set to default values.
      *
      * This method can be used in conjunction with isModified() to indicate whether an object is both
@@ -276,6 +314,7 @@ abstract class BaseUser extends BaseObject implements Persistent
             $this->password = ($row[$startcol + 2] !== null) ? (string) $row[$startcol + 2] : null;
             $this->password_salt = ($row[$startcol + 3] !== null) ? (string) $row[$startcol + 3] : null;
             $this->real_name = ($row[$startcol + 4] !== null) ? (string) $row[$startcol + 4] : null;
+            $this->role = ($row[$startcol + 5] !== null) ? (string) $row[$startcol + 5] : null;
             $this->resetModified();
 
             $this->setNew(false);
@@ -285,7 +324,7 @@ abstract class BaseUser extends BaseObject implements Persistent
             }
             $this->postHydrate($row, $startcol, $rehydrate);
 
-            return $startcol + 5; // 5 = UserPeer::NUM_HYDRATE_COLUMNS.
+            return $startcol + 6; // 6 = UserPeer::NUM_HYDRATE_COLUMNS.
 
         } catch (Exception $e) {
             throw new PropelException("Error populating User object", $e);
@@ -491,6 +530,10 @@ abstract class BaseUser extends BaseObject implements Persistent
         $modifiedColumns = array();
         $index = 0;
 
+        $this->modifiedColumns[] = UserPeer::ID;
+        if (null !== $this->id) {
+            throw new PropelException('Cannot insert a value for auto-increment primary key (' . UserPeer::ID . ')');
+        }
 
          // check the columns in natural order for more readable SQL queries
         if ($this->isColumnModified(UserPeer::ID)) {
@@ -507,6 +550,9 @@ abstract class BaseUser extends BaseObject implements Persistent
         }
         if ($this->isColumnModified(UserPeer::REAL_NAME)) {
             $modifiedColumns[':p' . $index++]  = '`real_name`';
+        }
+        if ($this->isColumnModified(UserPeer::ROLE)) {
+            $modifiedColumns[':p' . $index++]  = '`role`';
         }
 
         $sql = sprintf(
@@ -534,6 +580,9 @@ abstract class BaseUser extends BaseObject implements Persistent
                     case '`real_name`':
                         $stmt->bindValue($identifier, $this->real_name, PDO::PARAM_STR);
                         break;
+                    case '`role`':
+                        $stmt->bindValue($identifier, $this->role, PDO::PARAM_STR);
+                        break;
                 }
             }
             $stmt->execute();
@@ -541,6 +590,13 @@ abstract class BaseUser extends BaseObject implements Persistent
             Propel::log($e->getMessage(), Propel::LOG_ERR);
             throw new PropelException(sprintf('Unable to execute INSERT statement [%s]', $sql), $e);
         }
+
+        try {
+            $pk = $con->lastInsertId();
+        } catch (Exception $e) {
+            throw new PropelException('Unable to get autoincrement id.', $e);
+        }
+        $this->setId($pk);
 
         $this->setNew(false);
     }
@@ -676,6 +732,9 @@ abstract class BaseUser extends BaseObject implements Persistent
             case 4:
                 return $this->getRealName();
                 break;
+            case 5:
+                return $this->getRole();
+                break;
             default:
                 return null;
                 break;
@@ -709,6 +768,7 @@ abstract class BaseUser extends BaseObject implements Persistent
             $keys[2] => $this->getPassword(),
             $keys[3] => $this->getPasswordSalt(),
             $keys[4] => $this->getRealName(),
+            $keys[5] => $this->getRole(),
         );
         $virtualColumns = $this->virtualColumns;
         foreach ($virtualColumns as $key => $virtualColumn) {
@@ -763,6 +823,9 @@ abstract class BaseUser extends BaseObject implements Persistent
             case 4:
                 $this->setRealName($value);
                 break;
+            case 5:
+                $this->setRole($value);
+                break;
         } // switch()
     }
 
@@ -792,6 +855,7 @@ abstract class BaseUser extends BaseObject implements Persistent
         if (array_key_exists($keys[2], $arr)) $this->setPassword($arr[$keys[2]]);
         if (array_key_exists($keys[3], $arr)) $this->setPasswordSalt($arr[$keys[3]]);
         if (array_key_exists($keys[4], $arr)) $this->setRealName($arr[$keys[4]]);
+        if (array_key_exists($keys[5], $arr)) $this->setRole($arr[$keys[5]]);
     }
 
     /**
@@ -808,6 +872,7 @@ abstract class BaseUser extends BaseObject implements Persistent
         if ($this->isColumnModified(UserPeer::PASSWORD)) $criteria->add(UserPeer::PASSWORD, $this->password);
         if ($this->isColumnModified(UserPeer::PASSWORD_SALT)) $criteria->add(UserPeer::PASSWORD_SALT, $this->password_salt);
         if ($this->isColumnModified(UserPeer::REAL_NAME)) $criteria->add(UserPeer::REAL_NAME, $this->real_name);
+        if ($this->isColumnModified(UserPeer::ROLE)) $criteria->add(UserPeer::ROLE, $this->role);
 
         return $criteria;
     }
@@ -875,6 +940,7 @@ abstract class BaseUser extends BaseObject implements Persistent
         $copyObj->setPassword($this->getPassword());
         $copyObj->setPasswordSalt($this->getPasswordSalt());
         $copyObj->setRealName($this->getRealName());
+        $copyObj->setRole($this->getRole());
         if ($makeNew) {
             $copyObj->setNew(true);
             $copyObj->setId(NULL); // this is a auto-increment column, so set to default value
@@ -931,6 +997,7 @@ abstract class BaseUser extends BaseObject implements Persistent
         $this->password = null;
         $this->password_salt = null;
         $this->real_name = null;
+        $this->role = null;
         $this->alreadyInSave = false;
         $this->alreadyInValidation = false;
         $this->alreadyInClearAllReferencesDeep = false;

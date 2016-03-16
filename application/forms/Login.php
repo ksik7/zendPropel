@@ -29,7 +29,5 @@ class Application_Form_Login extends Zend_Form
         $this->addElements(array($username, $password, $submit));
         $this->setMethod('post');
         $this->setAction('/auth/auth/login');
-
-
     }
 }

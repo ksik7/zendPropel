@@ -878,3 +878,205 @@
 [09-Mar-2016 15:56:16 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
 [09-Mar-2016 15:56:16 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
 [09-Mar-2016 15:56:16 Europe/Berlin] PHP   6. Bootstrap->_initPropel() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP Notice:  Undefined variable: path in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Error/Report.php on line 110
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP   2. Dfi_Error_Report::saveException() /srv/vhosts/testzf/public/index.php:48
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP   3. Dfi_Error_Report::checkModel() /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Error/Report.php:33
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP Notice:  Undefined variable: path in /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Error/Report.php on line 110
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP   2. Dfi_Error_Report::saveException() /srv/vhosts/testzf/public/index.php:48
+[16-Mar-2016 13:43:13 Europe/Berlin] PHP   3. Dfi_Error_Report::checkModel() /srv/vhosts/testzf/vendor/dafik/dfi/src/Dfi/Error/Report.php:33
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Warning:  include_once(Ks/Plugin/AccessCheck.php): failed to open stream: No such file or directory in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'Ks/Plugin/AccessCheck.php' for inclusion (include_path='/srv/vhosts/testzf/application/library:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/library:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Fatal error:  Class 'Ks_Plugin_AccessCheck' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Warning:  include_once(Ks/Plugin/AccessCheck.php): failed to open stream: No such file or directory in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'Ks/Plugin/AccessCheck.php' for inclusion (include_path='/srv/vhosts/testzf/application/library:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/library:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Fatal error:  Class 'Ks_Plugin_AccessCheck' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 22
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:13 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Warning:  include_once(Ks/Plugin/AccessCheck.php): failed to open stream: No such file or directory in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'Ks/Plugin/AccessCheck.php' for inclusion (include_path='/srv/vhosts/testzf/application/library:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/library:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Fatal error:  Class 'Ks_Plugin_AccessCheck' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Warning:  include_once(Ks/Plugin/AccessCheck.php): failed to open stream: No such file or directory in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'Ks/Plugin/AccessCheck.php' for inclusion (include_path='/srv/vhosts/testzf/application/library:/srv/vhosts/testzf/application/models/testzf:/srv/vhosts/testzf/library:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:/srv/vhosts/testzf/vendor/propel/propel1/runtime/lib:/srv/vhosts/testzf/vendor/propel/propel1/generator/lib:/srv/vhosts/testzf/vendor/dafik/dfi/src:/srv/vhosts/testzf/vendor/phing/phing/classes:/srv/vhosts/testzf/application:/srv/vhosts/testzf/vendor/zendframework/zendframework1/library:.:/usr/share/php:/usr/share/pear') in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php on line 134
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   7. spl_autoload_call() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   8. Zend_Loader_Autoloader::autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   9. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  10. Zend_Loader_Autoloader->_autoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:124
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  11. call_user_func:{/srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479}() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  12. Zend_Loader::loadClass() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/Autoloader.php:479
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP  13. Zend_Loader::loadFile() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader.php:82
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Fatal error:  Class 'Ks_Plugin_AccessCheck' not found in /srv/vhosts/testzf/application/Bootstrap.php on line 22
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:44:53 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to Ks_Plugin_AccessPlugin::__construct() must be an instance of Zend_Acl_Role, instance of Zend_Auth given, called in /srv/vhosts/testzf/application/Bootstrap.php on line 22 and defined in /srv/vhosts/testzf/library/Ks/Plugin/AccessPlugin.php on line 9
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   7. Ks_Plugin_AccessPlugin->__construct() /srv/vhosts/testzf/application/Bootstrap.php:22
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to Ks_Plugin_AccessPlugin::__construct() must be an instance of Zend_Acl_Role, instance of Zend_Auth given, called in /srv/vhosts/testzf/application/Bootstrap.php on line 22 and defined in /srv/vhosts/testzf/library/Ks/Plugin/AccessPlugin.php on line 9
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:45:10 Europe/Berlin] PHP   7. Ks_Plugin_AccessPlugin->__construct() /srv/vhosts/testzf/application/Bootstrap.php:22
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /srv/vhosts/testzf/library/Ks/Plugin/AccessPlugin.php on line 29
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   2. Zend_Application->bootstrap($resource = *uninitialized*) /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   7. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   8. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   9. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:241
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /srv/vhosts/testzf/library/Ks/Plugin/AccessPlugin.php on line 29
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP Stack trace:
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   2. Zend_Application->bootstrap($resource = *uninitialized*) /srv/vhosts/testzf/public/index.php:42
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource($resource = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   7. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   8. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
+[16-Mar-2016 13:48:22 Europe/Berlin] PHP   9. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:241

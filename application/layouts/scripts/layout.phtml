@@ -4,6 +4,12 @@
     <?php echo $this->headLink()->appendStylesheet($this->baseUrl().'/css/bootstrap.css'); ?>
 
 </head>
+<header>
+    <?php if(Zend_Auth::getInstance()->hasIdentity()){
+       echo '<div><a href='.$this->url(array('module' => 'auth', 'controller' => 'auth', 'action' => 'logout')) .">Wyloguj</a> </div>";
+    } ?>
+</header>
+
 <body>
 <div class="content">
     <?php echo $this->layout()->content ?>

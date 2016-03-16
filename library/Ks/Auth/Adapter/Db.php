@@ -34,7 +34,7 @@ class Ks_Auth_Adapter_Db implements Zend_Auth_Adapter_Interface{
         else{
             $result = $this->result(Zend_Auth_Result::FAILURE);
         }
-        return $result;
+        return $this->result($result);
     }
     private function result($code, $messages = array())
     {

@@ -11,12 +11,14 @@
  * @method UserQuery orderByPassword($order = Criteria::ASC) Order by the password column
  * @method UserQuery orderByPasswordSalt($order = Criteria::ASC) Order by the password_salt column
  * @method UserQuery orderByRealName($order = Criteria::ASC) Order by the real_name column
+ * @method UserQuery orderByRole($order = Criteria::ASC) Order by the role column
  *
  * @method UserQuery groupById() Group by the id column
  * @method UserQuery groupByUsername() Group by the username column
  * @method UserQuery groupByPassword() Group by the password column
  * @method UserQuery groupByPasswordSalt() Group by the password_salt column
  * @method UserQuery groupByRealName() Group by the real_name column
+ * @method UserQuery groupByRole() Group by the role column
  *
  * @method UserQuery leftJoin($relation) Adds a LEFT JOIN clause to the query
  * @method UserQuery rightJoin($relation) Adds a RIGHT JOIN clause to the query
@@ -29,12 +31,14 @@
  * @method User findOneByPassword(string $password) Return the first User filtered by the password column
  * @method User findOneByPasswordSalt(string $password_salt) Return the first User filtered by the password_salt column
  * @method User findOneByRealName(string $real_name) Return the first User filtered by the real_name column
+ * @method User findOneByRole(string $role) Return the first User filtered by the role column
  *
  * @method array findById(int $id) Return User objects filtered by the id column
  * @method array findByUsername(string $username) Return User objects filtered by the username column
  * @method array findByPassword(string $password) Return User objects filtered by the password column
  * @method array findByPasswordSalt(string $password_salt) Return User objects filtered by the password_salt column
  * @method array findByRealName(string $real_name) Return User objects filtered by the real_name column
+ * @method array findByRole(string $role) Return User objects filtered by the role column
  *
  * @package    propel.generator.models.om
  */
@@ -142,7 +146,7 @@ abstract class BaseUserQuery extends ModelCriteria
      */
     protected function findPkSimple($key, $con)
     {
-        $sql = 'SELECT `id`, `username`, `password`, `password_salt`, `real_name` FROM `users` WHERE `id` = :p0';
+        $sql = 'SELECT `id`, `username`, `password`, `password_salt`, `real_name`, `role` FROM `users` WHERE `id` = :p0';
         try {
             $stmt = $con->prepare($sql);
             $stmt->bindValue(':p0', $key, PDO::PARAM_INT);
@@ -387,6 +391,35 @@ abstract class BaseUserQuery extends ModelCriteria
         }
 
         return $this->addUsingAlias(UserPeer::REAL_NAME, $realName, $comparison);
+    }
+
+    /**
+     * Filter the query on the role column
+     *
+     * Example usage:
+     * <code>
+     * $query->filterByRole('fooValue');   // WHERE role = 'fooValue'
+     * $query->filterByRole('%fooValue%'); // WHERE role LIKE '%fooValue%'
+     * </code>
+     *
+     * @param     string $role The value to use as filter.
+     *              Accepts wildcards (* and % trigger a LIKE)
+     * @param     string $comparison Operator to use for the column comparison, defaults to Criteria::EQUAL
+     *
+     * @return UserQuery The current query, for fluid interface
+     */
+    public function filterByRole($role = null, $comparison = null)
+    {
+        if (null === $comparison) {
+            if (is_array($role)) {
+                $comparison = Criteria::IN;
+            } elseif (preg_match('/[\%\*]/', $role)) {
+                $role = str_replace('*', '%', $role);
+                $comparison = Criteria::LIKE;
+            }
+        }
+
+        return $this->addUsingAlias(UserPeer::ROLE, $role, $comparison);
     }
 
     /**

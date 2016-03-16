@@ -24,13 +24,13 @@ abstract class BaseUserPeer
     const TM_CLASS = 'UserTableMap';
 
     /** The total number of columns. */
-    const NUM_COLUMNS = 5;
+    const NUM_COLUMNS = 6;
 
     /** The number of lazy-loaded columns. */
     const NUM_LAZY_LOAD_COLUMNS = 0;
 
     /** The number of columns to hydrate (NUM_COLUMNS - NUM_LAZY_LOAD_COLUMNS) */
-    const NUM_HYDRATE_COLUMNS = 5;
+    const NUM_HYDRATE_COLUMNS = 6;
 
     /** the column name for the id field */
     const ID = 'users.id';
@@ -46,6 +46,9 @@ abstract class BaseUserPeer
 
     /** the column name for the real_name field */
     const REAL_NAME = 'users.real_name';
+
+    /** the column name for the role field */
+    const ROLE = 'users.role';
 
     /** The default string format for model objects of the related table **/
     const DEFAULT_STRING_FORMAT = 'YAML';
@@ -66,12 +69,12 @@ abstract class BaseUserPeer
      * e.g. UserPeer::$fieldNames[UserPeer::TYPE_PHPNAME][0] = 'Id'
      */
     protected static $fieldNames = array (
-        BasePeer::TYPE_PHPNAME => array ('Id', 'Username', 'Password', 'PasswordSalt', 'RealName', ),
-        BasePeer::TYPE_STUDLYPHPNAME => array ('id', 'username', 'password', 'passwordSalt', 'realName', ),
-        BasePeer::TYPE_COLNAME => array (UserPeer::ID, UserPeer::USERNAME, UserPeer::PASSWORD, UserPeer::PASSWORD_SALT, UserPeer::REAL_NAME, ),
-        BasePeer::TYPE_RAW_COLNAME => array ('ID', 'USERNAME', 'PASSWORD', 'PASSWORD_SALT', 'REAL_NAME', ),
-        BasePeer::TYPE_FIELDNAME => array ('id', 'username', 'password', 'password_salt', 'real_name', ),
-        BasePeer::TYPE_NUM => array (0, 1, 2, 3, 4, )
+        BasePeer::TYPE_PHPNAME => array ('Id', 'Username', 'Password', 'PasswordSalt', 'RealName', 'Role', ),
+        BasePeer::TYPE_STUDLYPHPNAME => array ('id', 'username', 'password', 'passwordSalt', 'realName', 'role', ),
+        BasePeer::TYPE_COLNAME => array (UserPeer::ID, UserPeer::USERNAME, UserPeer::PASSWORD, UserPeer::PASSWORD_SALT, UserPeer::REAL_NAME, UserPeer::ROLE, ),
+        BasePeer::TYPE_RAW_COLNAME => array ('ID', 'USERNAME', 'PASSWORD', 'PASSWORD_SALT', 'REAL_NAME', 'ROLE', ),
+        BasePeer::TYPE_FIELDNAME => array ('id', 'username', 'password', 'password_salt', 'real_name', 'role', ),
+        BasePeer::TYPE_NUM => array (0, 1, 2, 3, 4, 5, )
     );
 
     /**
@@ -81,12 +84,12 @@ abstract class BaseUserPeer
      * e.g. UserPeer::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0
      */
     protected static $fieldKeys = array (
-        BasePeer::TYPE_PHPNAME => array ('Id' => 0, 'Username' => 1, 'Password' => 2, 'PasswordSalt' => 3, 'RealName' => 4, ),
-        BasePeer::TYPE_STUDLYPHPNAME => array ('id' => 0, 'username' => 1, 'password' => 2, 'passwordSalt' => 3, 'realName' => 4, ),
-        BasePeer::TYPE_COLNAME => array (UserPeer::ID => 0, UserPeer::USERNAME => 1, UserPeer::PASSWORD => 2, UserPeer::PASSWORD_SALT => 3, UserPeer::REAL_NAME => 4, ),
-        BasePeer::TYPE_RAW_COLNAME => array ('ID' => 0, 'USERNAME' => 1, 'PASSWORD' => 2, 'PASSWORD_SALT' => 3, 'REAL_NAME' => 4, ),
-        BasePeer::TYPE_FIELDNAME => array ('id' => 0, 'username' => 1, 'password' => 2, 'password_salt' => 3, 'real_name' => 4, ),
-        BasePeer::TYPE_NUM => array (0, 1, 2, 3, 4, )
+        BasePeer::TYPE_PHPNAME => array ('Id' => 0, 'Username' => 1, 'Password' => 2, 'PasswordSalt' => 3, 'RealName' => 4, 'Role' => 5, ),
+        BasePeer::TYPE_STUDLYPHPNAME => array ('id' => 0, 'username' => 1, 'password' => 2, 'passwordSalt' => 3, 'realName' => 4, 'role' => 5, ),
+        BasePeer::TYPE_COLNAME => array (UserPeer::ID => 0, UserPeer::USERNAME => 1, UserPeer::PASSWORD => 2, UserPeer::PASSWORD_SALT => 3, UserPeer::REAL_NAME => 4, UserPeer::ROLE => 5, ),
+        BasePeer::TYPE_RAW_COLNAME => array ('ID' => 0, 'USERNAME' => 1, 'PASSWORD' => 2, 'PASSWORD_SALT' => 3, 'REAL_NAME' => 4, 'ROLE' => 5, ),
+        BasePeer::TYPE_FIELDNAME => array ('id' => 0, 'username' => 1, 'password' => 2, 'password_salt' => 3, 'real_name' => 4, 'role' => 5, ),
+        BasePeer::TYPE_NUM => array (0, 1, 2, 3, 4, 5, )
     );
 
     /**
@@ -165,12 +168,14 @@ abstract class BaseUserPeer
             $criteria->addSelectColumn(UserPeer::PASSWORD);
             $criteria->addSelectColumn(UserPeer::PASSWORD_SALT);
             $criteria->addSelectColumn(UserPeer::REAL_NAME);
+            $criteria->addSelectColumn(UserPeer::ROLE);
         } else {
             $criteria->addSelectColumn($alias . '.id');
             $criteria->addSelectColumn($alias . '.username');
             $criteria->addSelectColumn($alias . '.password');
             $criteria->addSelectColumn($alias . '.password_salt');
             $criteria->addSelectColumn($alias . '.real_name');
+            $criteria->addSelectColumn($alias . '.role');
         }
     }
 
@@ -524,6 +529,10 @@ abstract class BaseUserPeer
             $criteria = clone $values; // rename for clarity
         } else {
             $criteria = $values->buildCriteria(); // build Criteria from User object
+        }
+
+        if ($criteria->containsKey(UserPeer::ID) && $criteria->keyContainsValue(UserPeer::ID) ) {
+            throw new PropelException('Cannot insert a value for auto-increment primary key ('.UserPeer::ID.')');
         }
 
 

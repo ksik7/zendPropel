@@ -36,7 +36,7 @@ class UserTableMap extends Dfi_Propel_Map_TableMap
         $this->setPhpName('User');
         $this->setClassname('User');
         $this->setPackage('models.map');
-        $this->setUseIdGenerator(false);
+        $this->setUseIdGenerator(true);
         $this->setDescription('');
         // columns
         $this->addPrimaryKey('id', 'Id', 'INTEGER', true, null, null ,' ');
@@ -44,6 +44,7 @@ class UserTableMap extends Dfi_Propel_Map_TableMap
         $this->addColumn('password', 'Password', 'VARCHAR', false, 32, null, false, null, null, '');
         $this->addColumn('password_salt', 'PasswordSalt', 'VARCHAR', false, 32, null, false, null, null, '');
         $this->addColumn('real_name', 'RealName', 'VARCHAR', false, 150, null, false, null, null, '');
+        $this->addColumn('role', 'Role', 'VARCHAR', false, 45, null, false, null, null, '');
         // validators
     } // initialize()
 
