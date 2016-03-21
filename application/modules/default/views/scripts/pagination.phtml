@@ -1,0 +1,7 @@
+<?php
+foreach($this->pagesInRange as $page){
+$test = $this->url(array('page' => $page));
+echo '<a href="'. $this->url(array('page' => $page)). '">'. $page .'</a>';
+}
+
+?>

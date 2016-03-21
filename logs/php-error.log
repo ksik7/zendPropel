@@ -1080,3 +1080,123 @@
 [16-Mar-2016 13:48:22 Europe/Berlin] PHP   7. spl_autoload_call(*uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
 [16-Mar-2016 13:48:22 Europe/Berlin] PHP   8. Zend_Loader_StandardAutoloader->autoload($class = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:22
 [16-Mar-2016 13:48:22 Europe/Berlin] PHP   9. Zend_Loader_StandardAutoloader->loadClass($class = *uninitialized*, $type = *uninitialized*) /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Loader/StandardAutoloader.php:241
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:05 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:21 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:23 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:28:24 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:29:20 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:29:21 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP Notice:  Array to string conversion in /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Acl/Resource.php on line 51
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP Stack trace:
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   1. {main}() /srv/vhosts/testzf/public/index.php:0
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   2. Zend_Application->bootstrap() /srv/vhosts/testzf/public/index.php:42
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application.php:373
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:598
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:634
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   6. Bootstrap->_initAutoload() /srv/vhosts/testzf/vendor/zendframework/zendframework1/library/Zend/Application/Bootstrap/BootstrapAbstract.php:681
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   7. Ks_LibraryAcl_LibraryAcl->__construct() /srv/vhosts/testzf/application/Bootstrap.php:21
+[17-Mar-2016 10:29:22 Europe/Berlin] PHP   8. Zend_Acl_Resource->__construct() /srv/vhosts/testzf/library/Ks/LibraryAcl/LibraryAcl.php:11

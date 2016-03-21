@@ -11,8 +11,8 @@ class Ks_LibraryAcl_LibraryAcl extends Zend_Acl{
         $this->addRole(new Zend_Acl_Role('admin'), 'user');
 
 
-        $this->allow('user', 'default-index', array('index'));
-        $this->allow('admin', 'default-test');
+        $this->allow('user', 'default-index', array('index','list'));
+        $this->allow('admin', 'default-test', array('list','index'));
 
     }
 

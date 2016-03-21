@@ -13,13 +13,12 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         $autoloader->registerNamespace('application_');
         $autoloader->registerNamespace('EasyBib_');
         $autoloader->registerNamespace('Ks_');
-        $autoloader->registerNamespace('nusoap_');
 
 
-        $acl = new Ks_LibraryAcl_LibraryAcl();
-        $auth  = Zend_Auth::getInstance();
+        $this->_acl = new Ks_LibraryAcl_LibraryAcl();
+        $this->_auth  = Zend_Auth::getInstance();
         $fc =  Zend_Controller_Front::getInstance();
-        $fc->registerPlugin(new Ks_Plugin_AccessPlugin($acl, $auth));
+        $fc->registerPlugin(new Ks_Plugin_AccessPlugin($this->_acl, $this->_auth));
 
     }
 
@@ -178,7 +177,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
     {
         // Initialize view
         $view = new Zend_View();
-        $view->doctype('XHTML1_STRICT');
+        $view->doctype('HTML5');
 
 
         $view->addHelperPath(array(_BASE_PATH . 'library/Dfi/View/Helper', 'Dfi/View/Helper/'), 'Dfi_View_Helper_');
@@ -210,4 +209,3 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
     }
 
 }
-

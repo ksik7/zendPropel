@@ -8,17 +8,29 @@
  */
 class TestController extends Zend_Controller_Action
 {
+
+    public function init()
+    {
+        $contextSwitch = $this->_helper->getHelper('contextSwitch');
+        $contextSwitch->addActionContext('list', 'json')
+            ->initContext();
+    }
+
     public function listAction()
     {
 
-        $book = BookQuery::create()
-            ->joinWith('Autor')
-            ->findOne();
+        $book= BookQuery::create()->find()->toArray();
 
+        $paginator = Zend_Paginator::factory($book);
+        $paginator->setItemCountPerPage(2)
+            ->setCurrentPageNumber('page', 1);
 
-
-        $this->view->assign('books', $book);
-
+        $count = $paginator->getCurrentItemCount();
+        $bookJson = $paginator;
+        $this->view->assign('booksJson', $bookJson);
+        if(!$this->_request->isXmlHttpRequest()) {
+            $this->view->assign('paginator', $paginator);
+        }
     }
 
     public function addAction()

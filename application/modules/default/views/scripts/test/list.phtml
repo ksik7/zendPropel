@@ -1,8 +1,16 @@
 <ul>
-    <? /** @var Book $book */
-    foreach ($this->books as $book) {
-        ?>
-        <li><? $book->getName(); ?></li>
-    <? } ?>
+    <?php
+    /**
+     * @var Book $book
+     */
 
+    foreach ($this->paginator as $book) {
+        echo '<li>' . $book['Name']. '</li>';
+    }
+    ?>
 </ul>
+
+<?php
+echo $this->paginationControl($this->paginatorm, 'Sliding', 'pagination.phtml');
+?>
+<a href="<?php echo $this->url(array('page' => 2)) ?>" id="link">test</a>
